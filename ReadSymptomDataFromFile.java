@@ -1,3 +1,4 @@
+package symptoms;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
@@ -7,7 +8,7 @@ import java.util.List;
 
 public class ReadSymptomDataFromFile {
 
-	public static List<String> GetSymptoms(String nomFichier) {
+	public static List<String> getSymptoms(String nomFichier) {
 		ArrayList<String> result = new ArrayList<String>();
 
 		if (nomFichier != null) {
